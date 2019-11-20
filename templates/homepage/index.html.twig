@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomepageController!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+    <div style="display: flex; justify-content: space-around;"  class="example-wrapper">
+        <div>
+            <p>Test</p>
+        </div>
+
+        <div>
+            <p>Test</p>
+        </div>
+
+        <div>
+            <p>Test</p>
+        </div>
+    </div>
+    <div style="background-color: lightgray;" class="w-auto p-8">
+        <div style="display: flex; justify-content: space-around;"  class="example-wrapper">
+            <div>
+                <p>Video</p>
+            </div>
+
+            <div>
+                <h1>De oplodding voor jou problemen</h1>
+                <p>Dit is een faketekst. Alles wat hier staat is slechts om een indruk te geven van het grafische effect van tekst op deze plek. Wat u hier leest is een voorbeeldtekst.
+                    Deze wordt later vervangen door de uiteindelijke tekst,
+                    die nu nog niet bekend is. De faketekst is dus een tekst die eigenlijk nergens over gaat. Het grappige is, dat mensen deze toch vaak lezen.
+                    Zelfs als men weet dat het om een faketekst gaat, lezen ze toch door.</p>
+                <button class="btn btn-warning">Lees meer</button>
+            </div>
+        </div>
+    </div>
+        <div class="example-wrapper">
+         <h1 style="text-align: center">In samenwerking met</h1>
+
+            <div style="display: flex; justify-content: space-around;">
+                <div>
+                    <img src="Image/LogoHaagse.png" class="rounded float-left" alt="De Haagse hogeschool">
+                </div>
+
+                <div>
+                    <img src="Image/LogoMBO.png" class="rounded float-left" alt="MBORijnland">
+                </div>
+            </div>
+        </div>
+
+{% endblock %}
